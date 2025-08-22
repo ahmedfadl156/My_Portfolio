@@ -27,7 +27,7 @@ function Footer() {
                 <i className="fa-brands fa-github text-lg"></i>
               </a>
               <a
-                href="https://www.linkedin.com/in/ahmed-fadl-156/"
+                href="https://www.linkedin.com/in/ahmed-fadl-753b84319/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-slate-800/50 backdrop-blur-sm border border-slate-700/50 rounded-full flex items-center justify-center text-slate-300 hover:text-white hover:bg-slate-700/50 transition-all duration-200"

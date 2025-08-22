@@ -50,7 +50,7 @@ function Header() {
         <div className="social-icons">
           <div className="mt-8 flex items-center justify-center gap-4">
             <a
-              href="#"
+              href="https://github.com/ahmedfadl156"
               target="_blank"
               rel="noreferrer"
               aria-label="GitHub"
@@ -60,7 +60,7 @@ function Header() {
               <FaGithub size={20} />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/ahmed-fadl-753b84319/"
               target="_blank"
               rel="noreferrer"
               aria-label="LinkedIn"
@@ -70,7 +70,7 @@ function Header() {
               <FaLinkedin size={20} />
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/ahme_dfadl/"
               target="_blank"
               rel="noreferrer"
               aria-label="Instagram"
