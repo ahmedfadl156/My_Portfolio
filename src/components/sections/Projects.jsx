@@ -71,12 +71,12 @@ function Projects() {
       </div>
 
       <div className="flex justify-center mt-12 mb-8">
-        <div className="flex flex-wrap gap-3 bg-slate-800/50 backdrop-blur-sm border border-slate-700/50 rounded-full p-2">
+        <div className="flex text-sm lg:text-lg gap-1 lg:gap-3 bg-slate-800/50 backdrop-blur-sm border border-slate-700/50 rounded-full p-2">
           {filterCategories.map((category) => (
             <button
               key={category}
               onClick={() => setActiveFilter(category)}
-              className={`px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
+              className={`px-3 lg:px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
                 activeFilter === category
                   ? "bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg"
                   : "text-slate-300 hover:text-white hover:bg-slate-700/50"

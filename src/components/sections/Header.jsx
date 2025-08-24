@@ -37,13 +37,13 @@ function Header() {
     <section id="home" className="relative flex flex-col gap-4 h-full items-center justify-center mx-auto max-w-6xl px-8 pb-24">
       <span className="bg-[#1e3b8a8f]  rounded text-center px-4 py-1 text-[#93C5FD]">Full-Stack Developer</span>
       <div className="">
-        <h1 className="text-white text-6xl font-bold text-center">Hi Iam <span className="text-blue-500">Ahmed Fadl</span></h1>
-        <p className="mt-3 text-2xl text-blue-100/90 text-center">
+        <h1 className="text-white text-3xl lg:text-6xl font-bold text-center">Hi Iam <span className="text-blue-500">Ahmed Fadl</span></h1>
+        <p className="mt-3 text-xl lg:text-2xl text-blue-100/90 text-center">
           <span>{text}</span>
           <span className="ml-1 inline-block w-0.5 h-6 align-middle bg-blue-300 animate-pulse"></span>
         </p>
-        <p className="text-[#9CA3AF] text-center mt-3 max-w-xl text-xl">Passionate about creating intuitive, accessible, and performant web applications that solve real-world problems.</p>
-        <div className="flex mx-auto justify-center gap-4 mt-8">
+        <p className="text-[#9CA3AF] text-center mt-3 max-w-xl text-md lg:text-xl">Passionate about creating intuitive, accessible, and performant web applications that solve real-world problems.</p>
+        <div className="flex flex-col lg:flex-row text-center mx-auto justify-center gap-4 mt-8">
           <a href="#contact" className="bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600 transition-colors duration-300 cursor-pointer">Get In Touch</a>
           <a href="#projects" className="bg-transparent border border-blue-500 text-blue-500 px-6 py-2 rounded hover:bg-blue-500 cursor-pointer hover:text-white transition-colors duration-300">View My Work</a>
         </div>
@@ -82,7 +82,7 @@ function Header() {
           </div>
         </div>
       </div>
-      <div className="absolute bottom-20 lg:bottom-28 left-1/2 -translate-x-1/2 z-50 flex flex-col items-center animate-bounce select-none">
+      <div className="absolute bottom-5 lg:bottom-28 left-1/2 -translate-x-1/2 z-50 flex flex-col items-center animate-bounce select-none">
         <p className="text-xs uppercase tracking-wider text-blue-200/90 mb-1 drop-shadow-sm">Scroll down</p>
         <a
           href="#about"
