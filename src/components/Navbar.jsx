@@ -36,7 +36,7 @@ function Navbar() {
       {/* Mobile CV Download Button */}
       <div className="md:hidden mr-3">
         <a 
-          href="/AhmedFadl_CV.pdf" 
+          href="/Ahmed_Fadl_CV.pdf" 
           download="Ahmed_Fadl_CV.pdf"
           className="inline-flex items-center px-3 py-1.5 bg-gradient-to-r from-blue-500 to-blue-600 text-white text-sm font-medium rounded-lg hover:from-blue-600 hover:to-blue-700 transition-all duration-300 shadow-lg hover:shadow-blue-500/25"
         >
@@ -76,7 +76,7 @@ function Navbar() {
       {/* Desktop CV Download Button */}
       <div className="hidden md:block">
         <a 
-          href="/AhmedFadl_CV.pdf" 
+          href="/Ahmed_Fadl_CV.pdf" 
           download="Ahmed_Fadl_CV.pdf"
           className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-medium rounded-lg hover:from-blue-600 hover:to-blue-700 transition-all duration-300 shadow-lg hover:shadow-blue-500/25 hover:scale-105"
         >

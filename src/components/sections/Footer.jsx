@@ -90,7 +90,7 @@ function Footer() {
                 New Damietta, Egypt
               </p>
               <a 
-                href="/AhmedFadl_CV.pdf" 
+                href="/Ahmed_Fadl_CV.pdf" 
                 target="_blank"
                 className="inline-flex items-center gap-2 mt-4 px-4 py-2 bg-blue-600/20 border border-blue-400/30 text-blue-400 rounded-lg hover:bg-blue-600/30 transition-all duration-200"
               >

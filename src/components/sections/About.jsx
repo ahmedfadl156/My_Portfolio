@@ -47,7 +47,7 @@ function About() {
               Let’s connect to create something extraordinary
             </p>
             <a
-              href="/AhmedFadl_CV.pdf"
+              href="/Ahmed_Fadl_CV.pdf"
               className="btn self-start text-sm md:text-lg bg-blue-400 hover:bg-blue-500 text-center text-white transition-colors duration-300 ease-in-out px-6 py-2 rounded-lg"
               download="AhmedFadl_CV.pdf"
             >
