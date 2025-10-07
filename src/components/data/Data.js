@@ -3,32 +3,51 @@ import { FaGraduationCap, FaCode, FaLaptopCode } from 'react-icons/fa';
 // Projects Data
 const projectsData = [
   {
-    "title": "Todo App 📋",
-    "description": "A sleek and intuitive to-do list application built with React, allowing users to manage tasks, set priorities, and track progress with a clean, modern interface.",
-    "image": "/Todo-app.png",
-    "techStack": ["HTML", "CSS", "JavaScript", "LocalStorage"],
-    "preview": "https://ahmedfadl156.github.io/final_TodoApp/",
-    "features": [
+    title: "🕌 Islamic App",
+    description:
+      "A modern and fully responsive Islamic web application that brings together the Qur’an, Prayer Times, and Azkar in one beautiful platform. Built with React, Vite, and TailwindCSS with full Arabic RTL support.",
+    image: "/islamic-app.png",
+    techStack: ["React", "Vite", "TailwindCSS", "Al-Quran API", "Al-Adhan API", "Geolocation API"],
+    preview: "https://islamic-app-one.vercel.app/",
+    features: [
+      "Qur’an Reading with Audio Playback",
+      "Accurate Prayer Times using Geolocation",
+      "Daily Azkar with Progress Tracker",
+      "Glassmorphism UI & Smooth Animations",
+      "Full Arabic RTL Support",
+      "Responsive Design for All Devices"
+    ],
+    github: "https://github.com/ahmedfadl156/islamic-app"
+  },
+  {
+    title: "Todo App 📋",
+    description:
+      "A sleek and intuitive to-do list application built with React, allowing users to manage tasks, set priorities, and track progress with a clean, modern interface.",
+    image: "/Todo-app.png",
+    techStack: ["HTML", "CSS", "JavaScript", "LocalStorage"],
+    preview: "https://ahmedfadl156.github.io/final_TodoApp/",
+    features: [
       "Task Creation and Management",
       "Priority and Deadline Settings",
       "LocalStorage for Persistent Data",
       "Responsive Design"
     ],
-    "github": "https://github.com/ahmedfadl156/final_TodoApp"
+    github: "https://github.com/ahmedfadl156/final_TodoApp"
   },
   {
-    "title": "Hospital System 🏥",
-    "description": "A comprehensive hospital management system designed to streamline patient records, appointments, and administrative tasks with a user-friendly interface.",
-    "image": "/hospital-system.jpg",
-    "techStack": ["Angular", "SCSS", "TypeScript", "PHP", "SQL"],
-    "preview": "",
-    "features": [
+    title: "Hospital System 🏥",
+    description:
+      "A comprehensive hospital management system designed to streamline patient records, appointments, and administrative tasks with a user-friendly interface.",
+    image: "/hospital-system.jpg",
+    techStack: ["Angular", "SCSS", "TypeScript", "PHP", "SQL"],
+    preview: "",
+    features: [
       "Patient Record Management",
       "Appointment Scheduling",
       "Admin Dashboard",
       "Responsive and Secure Design"
     ],
-    "github": "https://github.com/ahmedfadl156/Hospital_System"
+    github: "https://github.com/ahmedfadl156/Hospital_System"
   },
   {
     title: "Cinema Scoop 🎬",
@@ -41,17 +60,18 @@ const projectsData = [
       "Advanced Search with OMDB API",
       "Personal Statistics & Rating System",
       "Glassmorphism UI Design",
-      "Fully Responsive Design",
+      "Fully Responsive Design"
     ],
     github: "https://github.com/ahmedfadl156/Cinema-Scoop"
   },
   {
-    "title": "👨‍🍳 Chef's Pal",
-    "description": "A modern and interactive web application designed to help you discover new recipes, view detailed cooking instructions, and manage your favorite dishes. Perfect for cooking enthusiasts exploring culinary delights!",
-    "image": "/chef-pal.png",
-    "techStack": ["HTML", "Tailwind CSS", "JavaScript", "TheMealDB API"],
-    "preview": "https://ahmedfadl156.github.io/Chefpal_website/",
-    "features": [
+    title: "👨‍🍳 Chef's Pal",
+    description:
+      "A modern and interactive web application designed to help you discover new recipes, view detailed cooking instructions, and manage your favorite dishes. Perfect for cooking enthusiasts exploring culinary delights!",
+    image: "/chef-pal.png",
+    techStack: ["HTML", "Tailwind CSS", "JavaScript", "TheMealDB API"],
+    preview: "https://ahmedfadl156.github.io/Chefpal_website/",
+    features: [
       "Recipe Search with TheMealDB API",
       "Random Recipe Discovery",
       "Detailed Recipe View with Instructions",
@@ -59,36 +79,38 @@ const projectsData = [
       "Responsive Design Across All Devices",
       "Intuitive User Experience"
     ],
-    "github": "https://github.com/ahmedfadl156/Chefpal_website"
+    github: "https://github.com/ahmedfadl156/Chefpal_website"
   },
   {
-    "title": "Fashion E-Commerce",
-    "description": "A stylish e-commerce platform for fashion enthusiasts, featuring a seamless shopping experience with product filtering, cart management, and a modern UI.",
-    "image": "/fashion-ecommerce.png",
-    "techStack": ["Angular", "Bootstrap", "TypeScript", "Node.js" , "Express.js", "SQL"],
-    "preview": "",
-    "features": [
+    title: "Fashion E-Commerce",
+    description:
+      "A stylish e-commerce platform for fashion enthusiasts, featuring a seamless shopping experience with product filtering, cart management, and a modern UI.",
+    image: "/fashion-ecommerce.png",
+    techStack: ["Angular", "Bootstrap", "TypeScript", "Node.js", "Express.js", "SQL"],
+    preview: "",
+    features: [
       "Product Search and Filtering",
       "Shopping Cart and Checkout",
       "Payment Integration with Stripe",
       "Fully Responsive Design"
     ],
-    "github": "https://github.com/ahmedfadl156/Fashion_E-Commerce"
+    github: "https://github.com/ahmedfadl156/Fashion_E-Commerce"
   },
   {
-    "title": "Finance Tracker App 💸",
-    "description": "A personal finance tracker that helps users manage budgets, track expenses, and visualize financial data with an intuitive and modern interface.",
-    "image": "/finance-tracker.png",
-    "techStack": ["HTML", "CSS", "JavaScript", "Chart.js", "LocalStorage"],
-    "preview": "https://ahmedfadl156.github.io/Finance_Tracker_App/",
-    "features": [
+    title: "Finance Tracker App 💸",
+    description:
+      "A personal finance tracker that helps users manage budgets, track expenses, and visualize financial data with an intuitive and modern interface.",
+    image: "/finance-tracker.png",
+    techStack: ["HTML", "CSS", "JavaScript", "Chart.js", "LocalStorage"],
+    preview: "https://ahmedfadl156.github.io/Finance_Tracker_App/",
+    features: [
       "Expense and Income Tracking",
       "Budget Planning",
       "Data Visualization with Charts",
       "Responsive Design"
     ],
-    "github": "https://github.com/ahmedfadl156/Finance_Tracker_App"
-  },
+    github: "https://github.com/ahmedfadl156/Finance_Tracker_App"
+  }
 ];
 
 // TimeLine Data
