@@ -25,7 +25,7 @@ function Skills() {
           <h2 className="text-white text-xl font-bold">Frontend Development</h2>
           <div className="skills-progress flex flex-col gap-6 mt-6">
             {ForntEndData.map((skill) => (
-              <div>
+              <div key={skill.title}>
                 <div className="progress-info flex justify-between items-center">
                   <h2 className="mb-2 text-white text-sm">{skill.title}</h2>
                   <p className="text-[#9CA3AF] text-xs">{skill.progress}%</p>
@@ -45,7 +45,7 @@ function Skills() {
           <h2 className="text-white text-xl font-bold">Backend Development</h2>
           <div className="skills-progress flex flex-col gap-6 mt-6">
             {BackEndData.map((skill) => (
-              <div>
+              <div key={skill.title}>
                 <div className="progress-info flex justify-between items-center">
                   <h2 className="mb-2 text-white text-sm">{skill.title}</h2>
                   <p className="text-[#9CA3AF] text-xs">{skill.progress}%</p>
@@ -65,7 +65,7 @@ function Skills() {
           <h2 className="text-white text-xl font-bold">Other Skills</h2>
           <div className="skills-progress flex flex-col gap-6 mt-6">
             {otherSkills.map((skill) => (
-              <div>
+              <div key={skill.title}>
                 <div className="progress-info flex justify-between items-center">
                   <h2 className="mb-2 text-white text-sm">{skill.title}</h2>
                   <p className="text-[#9CA3AF] text-xs">{skill.progress}%</p>
