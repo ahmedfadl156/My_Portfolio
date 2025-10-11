@@ -9,7 +9,6 @@ export default function useAddTestimonial() {
         onSuccess: (newTestimonial) => {
             toast.success("Testimonial added successfully");
             queryClient.invalidateQueries({queryKey: ["testimonials"]});
-            queryClient.refetchQueries({queryKey: ["testimonials"]});
         },
         onError: (error) => {
             console.error("Error adding testimonial:", error);

@@ -12,9 +12,18 @@ import Footer from "./components/sections/Footer";
 import { QueryClient } from "@tanstack/react-query";
 import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "react-hot-toast";
+
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      staleTime: 0,
+      refetchOnWindowFocus: false,
+    },
+  },
+});
+
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
-  const queryClient = new QueryClient();
   return (
     <>
       {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}
